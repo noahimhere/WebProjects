@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wordle</title>
+    <style>
+        .title{
+            color: rgb(139, 78, 78);
+            background-color: blanchedalmond;
+        }
+        .box{
+            width: 50px;
+            height: 50px;
+            border: 3px solid black;
+            font-size: 40px;
+            margin-right:8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .results{
+            display: flex;
+            margin-bottom:8px;
+        }
+
+        .correct{
+            background-color: rgb(104, 187, 104);
+        }
+        .misplaced{
+            background-color: rgb(255, 255, 196);
+        }
+        .wrong{
+            background-color: rgb(58, 57, 57);
+        }
+
+        #input{
+            font-size:40px;
+            margin-bottom:16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="title">Wordle</div>
+    <input id="input">
+
+
+    <div id="container">
+        
+    </div>
+
+    <!-- <div class="results">
+        <div class="box misplaced">S</div>
+        <div class="box correct">N</div>
+        <div class="box wrong">A</div>
+        <div class="box correct">K</div>
+        <div class="box correct">E</div>
+    </div> -->
+
+        <script type="text/javascript" src="./script.js"></script>
+    <script type="text/javascript" src="./main.js"></script>
+</body>
+</html>
